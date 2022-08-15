@@ -1,0 +1,45 @@
+body{
+ background:linear-gradient(to bottom, grey, brown);
+ margin:auto;
+ padding:10rem;
+}
+h1{
+ padding-top:1rem;
+}
+.tela{
+ background:linear-gradient(to bottom, green, blue);
+ text-align:center;
+ align-items:center;
+ margin:auto;
+ width:25rem;
+ height:20rem;
+ border-radius:20px;
+}
+.escolha{
+ align-items:center;
+ text-align:center;
+ margin:auto;
+ padding:2rem;
+ font:sans-serif;
+ width:15rem;
+}
+.iniciar{
+ background-color:grey;
+ border:solid 0px black;
+ border-radius:5px;
+}
+.avatar{
+ background-color:grey;
+ border:solid 0px black;
+ border-radius:5px;
+}
+.config{
+ background-color:grey;
+ border:solid 0px black;
+ border-radius:5px;
+}
+.start{
+ font-size:35px;
+ color:green;
+ cursor:pointer;
+}
