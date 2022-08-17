@@ -6,5 +6,8 @@ function start(){
   	 document.body.appendChild(p);
   	 p.innerHTML = "Hello World!";
   	 p.setAttribute("class","start");
+  	 (function(){
+	window.alert("inicio")
+}());
   	}
 }
