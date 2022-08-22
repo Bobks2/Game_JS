@@ -7,7 +7,7 @@ function start(){
   	 p.innerHTML = "Hello World!";
   	 p.setAttribute("class","start");
   	 (function(){
-	window.alert("inicio")
-}());
+	 window.alert("inicio")}());
   	}
+
 }

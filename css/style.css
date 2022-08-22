@@ -4,6 +4,8 @@ body{
  padding:10rem;
 }
 h1{
+ color:#000;
+ font-size:2.5rem;
  padding-top:1rem;
 }
 .tela{
@@ -14,6 +16,7 @@ h1{
  width:25rem;
  height:20rem;
  border-radius:20px;
+ box-shadow:5px 5px 3px rgba(0,0,0,1);
 }
 .escolha{
  align-items:center;
@@ -25,18 +28,29 @@ h1{
 }
 .iniciar{
  background-color:grey;
- border:solid 0px black;
- border-radius:5px;
+ border-radius:20px;
+ background:linear-gradient(5deg, #a3a3a3, #000);
+}
+.iniciar:hover{
+ box-shadow:5px 5px 3px rgba(0,0,0,5);
+ border:solid 1px black;
 }
 .avatar{
- background-color:grey;
- border:solid 0px black;
- border-radius:5px;
+ border-radius:20px;
+ background:linear-gradient(5deg, #a3a3a3, #000);
+}
+.avatar:hover{
+ box-shadow:5px 5px 3px rgba(0,0,0,5);
+ border:solid 1px black;
 }
 .config{
  background-color:grey;
- border:solid 0px black;
- border-radius:5px;
+ border-radius:20px;
+ background:linear-gradient(5deg, #a3a3a3, #000);
+}
+.config:hover{
+ box-shadow:5px 5px 3px rgba(0,0,0,5);
+ border:solid 1px black;
 }
 .start{
  font-size:35px;
