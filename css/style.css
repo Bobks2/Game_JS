@@ -1,7 +1,8 @@
 body{
- background:linear-gradient(to bottom, grey, brown);
- margin:auto;
+ background-color:grey;
  padding:10rem;
+ padding-top:5rem;
+ margin:0px;
 }
 h1{
  color:#000;
@@ -22,31 +23,35 @@ h1{
  align-items:center;
  text-align:center;
  margin:auto;
- padding:2rem;
+ padding:0.1rem;
  font:sans-serif;
- width:15rem;
+ width:16rem;
 }
 .iniciar{
- background-color:grey;
- border-radius:20px;
+ border-radius:5px;
  background:linear-gradient(5deg, #a3a3a3, #000);
+ margin:2rem;
+ padding:0.2rem;
 }
 .iniciar:hover{
  box-shadow:5px 5px 3px rgba(0,0,0,5);
  border:solid 1px black;
 }
 .avatar{
- border-radius:20px;
+ border-radius:5px;
  background:linear-gradient(5deg, #a3a3a3, #000);
+ margin:2rem;
+ padding:0.2rem;
 }
 .avatar:hover{
  box-shadow:5px 5px 3px rgba(0,0,0,5);
  border:solid 1px black;
 }
 .config{
- background-color:grey;
- border-radius:20px;
+ border-radius:5px;
  background:linear-gradient(5deg, #a3a3a3, #000);
+ margin:2rem;
+ padding:0.2rem;
 }
 .config:hover{
  box-shadow:5px 5px 3px rgba(0,0,0,5);
@@ -56,4 +61,14 @@ h1{
  font-size:35px;
  color:green;
  cursor:pointer;
+}
+.name{
+ font-size:20px;
+ color:rgb(0,0,0);
+}
+.img{
+padding:0.5rem;
+border:solid 1px black;
+text-align: center;
+align-items: center;
 }
